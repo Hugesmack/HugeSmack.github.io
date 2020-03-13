@@ -1,0 +1,189 @@
+<html>
+<head>
+<link href="style.css" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 12px;
+  background-color: #0e0e0e;
+  color: purple;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #000000;
+  margin-bottom: 12px;
+  font-family: 'Poppins', sans-serif;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+#myUL li a {
+  border: 1px solid #000000;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #0e0e0e;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: purple;
+  display: block;
+  font-family: 'Poppins', sans-serif;
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: gray;
+}
+
+body {
+  background-color: #000000;
+  font-family: 'Poppins', sans-serif;
+}
+h1 {
+  color: purple;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;;
+  font-style: italic; 
+}
+</style>
+</head>
+<body>
+<!-- Top Nav Bar -->
+	<div class="topnav">
+	<li><a class="active" href="/index.html">Home</a></li>
+	<li><a class="active" href="/BSgames.html">Games</a></li>
+	<li><a class="active" href="/BSdesktop.html">Desktop Games</a></li>
+	<li><a class="active" href="/PapaGames.html">Papa's Games</a></li>
+	<li><a class="active" href="/PapaDesktop.html">Papa's Games Desktop</a></li>
+	<li><a class="active" href="/searchtest.html">Search Games</a></li>
+  	<li><a class="active" href="/updates.html">Updates</a></li>
+  	<li><a class="active" href="/BScontact.html">Contact</a></li>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()"></a>
+	</div>
+	<script>
+		function myFunction() {
+		  var x = document.getElementById("myTopnav");
+		  if (x.className === "topnav") {
+			x.className += " responsive";
+		  } else {
+			x.className = "topnav";
+		  }
+		}
+	</script>
+	<!-- End of top nav -->
+<h1>Big Smacky Games</h1>
+
+<input type="text" id="myInput" onkeyup="searchFunction()" placeholder="Search for games.." title="Type in a game">
+
+<ul id="myUL">
+  <li><a href="games/papa1.html">Papa's Bakeria</a></li>
+  <li><a href="games/papa2.html">Papa's Burgeria</a></li>
+  <li><a href="games/papa3.html">Papa's Cheeseria</a></li>
+ 
+  <li><a href="games/papa4.html">Papa's Cupcakeria</a></li>
+  <li><a href="games/papa5.html">Papa's Donuteria</a></li>
+  <li><a href="games/papa6.html">Papa's Freezeria</a></li>
+ 
+  <li><a href="games/papa7.html">Papa's Hot Doggeria</a></li>
+  <li><a href="games/papa8.html">Papa's Pancakeria</a></li>
+  <li><a href="games/papa9.html">Papa's Pastaria</a></li>
+
+  <li><a href="games/papa10.html">Papa's Pizzeria</a></li>
+  <li><a href="games/papa11.html">Papa's Scooperia</a></li>
+  <li><a href="games/papa12.html">Papa's Sushiria</a></li>
+ 
+  <li><a href="games/papa13.html">Papa's Taco Mia</a></li>
+  <li><a href="games/papa14.html">Papa's Wingeria</a></li>
+  <li><a href="games/papa15.html">Papa Louie</a></li>
+  
+  <li><a href="games/flash23.html">Jacksmith</a></li>
+  <li><a href="games/2048/index.html">2048</a></li>
+  <li><a href="games/flash69.html">Duck Life 1</a></li>
+ 
+  <li><a href="games/flash70.html">Duck Life 2</a></li>
+  <li><a href="games/flash72.html">Duck Life 3</a></li>
+  <li><a href="games/flash64.html">Pokemon Red</a></li>
+ 
+  <li><a href="games/flash66.html">Pokemon Ruby</a></li>
+  <li><a href="games/flash68.html">Pokemon Emerald</a></li>
+  <li><a href="games/flash31.html">Sonic</a></li>
+
+  <li><a href="games/flash50.html">Sports Head Football</a></li>
+  <li><a href="games/flash51.html">Sports Head Basketball</a></li>
+  <li><a href="games/flash26.html">Pac-Man</a></li>
+ 
+  <li><a href="games/flash54.html">40x Escape</a></li>
+  <li><a href="games/flash55.html">Bloxorz</a></li>
+  <li><a href="games/flash58.html">Civiballs</a></li>
+
+  <li><a href="games/flash59.html">Diggy</a></li>
+  <li><a href="games/flash28.html">Tetris</a></li>
+  <li><a href="games/flash25.html">Super Smash Flash</a></li>
+ 
+  <li><a href="games/flash60.html">Strike Force Heroes</a></li>
+  <li><a href="games/flash18.html">Strike Force Heroes 2</a></li>
+  <li><a href="games/flash71.html">Cubefeild</a></li>
+ 
+  <li><a href="games/flash40.html">Happy Wheels</a></li>
+  <li><a href="games/flash30.html">Donkey Kong</a></li>
+  <li><a href="games/flash52.html">Sports Head Tennis</a></li>
+
+  <li><a href="games/flash16.html">Bloons Tower Defense 5</a></li>
+  <li><a href="games/flash17.html">Super Mario 63</a></li>
+  <li><a href="games/flash19.html">Battleship</a></li>
+ 
+  <li><a href="games/flash22.html">Learn To Fly 2</a></li>
+  <li><a href="games/flash21.html">Learn To Fly 3</a></li>
+  <li><a href="games/flash24.html">Rainbow Unicorn Attack</a></li>
+
+  <li><a href="games/flash48.html">Coreball</a></li>
+  <li><a href="games/flash32.html">Space Invaders</a></li>
+  <li><a href="games/flash33.html">Super Mario Crossover</a></li>
+
+  <li><a href="games/flash27.html">Pong</a></li>
+  <li><a href="games/flash36.html">Mutilate a Doll</a></li>
+  <li><a href="games/flash49.html">Cargo Bridge 2</a></li>
+
+  <li><a href="games/flash38.html">Age of War</a></li>
+  <li><a href="games/flash37.html">Doom</a></li>
+  <li><a href="games/dinogame.html.html">T-Rex Game</a></li>
+  
+  <li><a href="games/flash56.html">Gravitex 2</a></li>
+  <li><a href="games/flash61.html">Sugar, Sugar</a></li>
+  <li><a href="games/flash62.html">Sugar, Sugar 2</a></li>
+
+  <li><a href="games/candyjam/candyjam-master/index.html">Dental Defender</a></li>
+  <li><a href="games/spacecompany/SpaceCompany-gh-pages/index.html">Space Company</a></li>
+  <li><a href="games/racermaster/javascript-racer-master/index.html">Javascript Racer</a></li>
+</ul>
+
+<script>
+function searchFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script>
+
+</body>
+</html>
